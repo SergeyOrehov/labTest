@@ -1,0 +1,260 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+* {
+  touch-action: manipulation !important;
+}
+
+
+html {
+  overflow-x: hidden;
+  min-height: 100vh;
+
+  &.active {
+    overflow-y: hidden;
+  }
+}
+
+
+body {
+  font-family: 'GraphikLCG', sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  font-weight: 400;
+  min-height: 100vh;
+
+  &.active {
+    overflow-y: hidden;
+  }
+}
+
+body.no-scroll {
+  overflow: hidden !important;
+}
+
+html.no-scroll {
+  overflow: hidden !important;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 1216px;
+  min-width: 288px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+
+  @include small-mobile {
+    width: calc(100% - 32px);
+  }
+}
+
+a,
+button {
+  transition-duration: 0.3s;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logo {
+  font-size: 0;
+  transition: 0.3s;
+  width: 120px;
+  height: 24px;
+
+  @include hover {
+    &:hover {
+      transition: 0.3s;
+      opacity: 0.7;
+    }
+  }
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 120%;
+  color: $black;
+
+  @include small-tablet {
+    font-size: 32px;
+    line-height: 125%;
+  }
+
+  @include small-mobile {
+    font-size: 24px;
+    line-height: 133%;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+  color: $black;
+  text-align: center;
+
+  @include small-mobile {
+    font-size: 24px;
+    line-height: 133%;
+  }
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 125%;
+  color: $black;
+
+  @include medium-tablet {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  @include large-mobile {
+    text-align: center;
+  }
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: $black;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: $black;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: $black;
+}
+
+p + p {
+  margin-top: 28px;
+}
+
+.btn {
+  width: fit-content;
+  background: $light-gray;
+  font-size: 20px;
+  color: $black;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 21px 39.5px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  height: fit-content;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  @include hover {
+    &:hover {
+      transition: 0.3s;
+      background: $white;
+      border: 1px solid $mid-grey;
+    }
+  }
+}
+
+
+.body-12 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: $black;
+
+}
+
+.body-12-b {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 133%;
+  color: $black;
+}
+
+.body-14 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: $black;
+
+}
+
+.body-14-b {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  color: $black;
+}
+
+.body-16 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: $black;
+
+  @include large-mobile {
+    text-align: center;
+  }
+}
+
+.body-16-b {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  color: $black;
+}
+
+.body-18 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  color: $black;
+
+  @include small-tablet {
+    font-size: 16px;
+    line-height: 175%;
+  }
+}
+
+.body-18-b {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 178%;
+  color: $black;
+}

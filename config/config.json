@@ -1,0 +1,42 @@
+{
+  "sourcePath": "resources",
+  "tmpPath": ".tmp",
+  "destPath": "public",
+  "staticPath": "static",
+  "contentPath": "assets",
+
+  "concatScripts": false,
+  "imagemin": true,
+
+  "htmlPath": "html",
+
+  "scriptsPath": "js",
+  "babel": false,
+  "concatFilePath": "",
+
+  "cssMin": false,
+  "stylesPath": "css",
+
+  "svgSpritePath": "svg/sprite",
+  "svgPath": "svg/static",
+  "supportJsLibs": [
+    "node_modules/swiper/swiper-bundle.js"
+  ],
+
+  "imagesPath": "images",
+
+  "ftp": {
+    "enabled": false,
+    "host": "",
+    "login": "",
+    "password": "",
+    "remotePath": ""
+  },
+  "sftp": {
+    "enabled": false,
+    "host": "",
+    "login": "",
+    "password": "",
+    "remotePath": ""
+  }
+}

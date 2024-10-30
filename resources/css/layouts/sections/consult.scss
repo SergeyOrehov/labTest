@@ -1,0 +1,70 @@
+.consult {
+  padding: 80px 0;
+
+  h2 {
+    margin-bottom: 44px;
+  }
+
+  .form-custom {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+
+    &__top {
+      display: flex;
+      gap: 32px;
+    }
+
+    &__bottom {
+
+    }
+
+  }
+
+  .input-container {
+    position: relative;
+  }
+
+  input {
+    border: 2px solid $extralight-gray;
+    border-radius: 4px;
+    width: 384px;
+    height: 64px;
+    background: $extralight-gray;
+    padding: 28px 16px 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: $mid-grey;
+  }
+
+  label {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: $dark-gray;
+  }
+
+  input:focus {
+    background: transparent;
+    border: 2px solid $mid-grey;
+  }
+
+  input:focus + label {
+    top: 8px;
+    transform: initial;
+    font-size: 14px;
+    color: $gray;
+    line-height: 171%;
+    font-weight: 400;
+  }
+}

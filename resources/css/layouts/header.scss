@@ -1,0 +1,35 @@
+.header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+
+  &__inner  {
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 0;
+    align-items: center;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 26px;
+  }
+  li {
+
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: $white;
+    border-bottom: 1px solid transparent;
+    @include hover {
+      &:hover {
+          border-bottom: 1px solid $white;
+          transition: 0.3s;
+      }
+    }
+  }
+}
