@@ -3,7 +3,7 @@
 @@include('layouts/header.html')
 
 <main class="main">
-    <section class="mainScreen">
+    <section id="mainScreen" class="mainScreen">
         <div class="mainScreen__bg">
             <picture>
                 <source media="(max-width: 575px)" srcset="./static/images/main-bg-mb.jpg"/>
@@ -21,7 +21,7 @@
             </div>
         </div>
     </section>
-    <section class="logic">
+    <section id="logic" class="logic">
         <div class="container">
             <div class="logic__inner">
                 <h2 class="logic__title">
@@ -75,12 +75,13 @@
             </div>
         </div>
     </section>
-    <section class="third">
+    <section id="third" class="third">
         <div class="container">
             <div class="third__inner">
                 <div class="third__left">
                     <h3>Круто, ты дошел до третьего блока</h3>
-                    <p class="body-16">63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы
+                    <p class="body-16">63% опрошенных пользовались кредитами из-за того, что не могли покрыть
+                        непредвиденные расходы
                         свыше 15 000 ₽.</p>
                     <p class="body-16"> Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги
                         на процентах и штрафах.</p>
@@ -92,9 +93,10 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="container">
             <div class="reviews__inner">
+                <div class="swiper-pagination"></div>
                 <h2>Отзывы</h2>
                 <div class="reviews__slider">
                     <div class="swiper-navigation">
@@ -119,13 +121,13 @@
                                                 <img src="/images/reviews/ava-1.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Константинов Иван Павлович</div>
-                                                <div class="reviews__info-place">Санкт-Петербург</div>
+                                                <h6 class="reviews__info-title">Константинов Иван Павлович</h6>
+                                                <div class="body-12 reviews__info-place">Санкт-Петербург</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
                                             существующих паттернов поведения. В своём стремлении улучшить
                                             пользовательский опыт мы упускаем, что активно развивающиеся страны третьего
@@ -142,13 +144,13 @@
                                                 <img src="/images/reviews/ava-2.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Иван Иванов</div>
-                                                <div class="reviews__info-place">Санкт-Петербург</div>
+                                                <h6 class="reviews__info-title">Иван Иванов</h6>
+                                                <div class="body-12 reviews__info-place">Санкт-Петербург</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
                                             существующих паттернов поведения. В своём стремлении улучшить
                                             пользовательский опыт мы упускаем, что активно развивающиеся страны третьего
@@ -165,18 +167,15 @@
                                                 <img src="/images/reviews/ava-3.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Артем Корнилов</div>
-                                                <div class="reviews__info-place">Самара</div>
+                                                <h6 class="reviews__info-title">Артем Корнилов</h6>
+                                                <div class="body-12 reviews__info-place">Самара</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
-                                            существующих паттернов поведения. В своём стремлении улучшить
-                                            пользовательский опыт мы упускаем, что активно развивающиеся страны
-                                            третьего
-                                            мира призваны к ответу.
+                                            существующих паттернов поведения.
                                         </div>
                                     </div>
                                 </div>
@@ -189,13 +188,13 @@
                                                 <img src="/images/reviews/ava-1.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Константинов Иван Павлович</div>
-                                                <div class="reviews__info-place">Санкт-Петербург</div>
+                                                <h6 class="reviews__info-title">Константинов Иван Павлович</h6>
+                                                <div class="body-12 reviews__info-place">Санкт-Петербург</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
                                             существующих паттернов поведения. В своём стремлении улучшить
                                             пользовательский опыт мы упускаем, что активно развивающиеся страны третьего
@@ -212,13 +211,13 @@
                                                 <img src="/images/reviews/ava-2.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Иван Иванов</div>
-                                                <div class="reviews__info-place">Санкт-Петербург</div>
+                                                <h6 class="reviews__info-title">Иван Иванов</h6>
+                                                <div class="body-12 reviews__info-place">Санкт-Петербург</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
                                             существующих паттернов поведения. В своём стремлении улучшить
                                             пользовательский опыт мы упускаем, что активно развивающиеся страны третьего
@@ -235,17 +234,37 @@
                                                 <img src="/images/reviews/ava-3.png" alt="avatar" loading="lazy">
                                             </div>
                                             <div class="reviews__info-description">
-                                                <div class="reviews__info-title">Артем Корнилов</div>
-                                                <div class="reviews__info-place">Самара</div>
+                                                <h6 class="reviews__info-title">Артем Корнилов</h6>
+                                                <div class="body-12 reviews__info-place">Самара</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="reviews__bottom">
-                                        <div class="reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
+                                            перспективное планирование предоставляет широкие возможности для анализа
+                                            существующих паттернов поведения.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__content">
+                                    <div class="reviews__top">
+                                        <div class="reviews__info">
+                                            <div class="reviews__info-image">
+                                                <img src="/images/reviews/ava-1.png" alt="avatar" loading="lazy">
+                                            </div>
+                                            <div class="reviews__info-description">
+                                                <h6 class="reviews__info-title">Константинов Иван Павлович</h6>
+                                                <div class="body-12 reviews__info-place">Санкт-Петербург</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__bottom">
+                                        <div class="body-14 reviews__bottom-text">Каждый из нас понимает очевидную вещь:
                                             перспективное планирование предоставляет широкие возможности для анализа
                                             существующих паттернов поведения. В своём стремлении улучшить
-                                            пользовательский опыт мы упускаем, что активно развивающиеся страны
-                                            третьего
+                                            пользовательский опыт мы упускаем, что активно развивающиеся страны третьего
                                             мира призваны к ответу.
                                         </div>
                                     </div>
@@ -257,7 +276,7 @@
             </div>
         </div>
     </section>
-    <section class="faq">
+    <section id="faq" class="faq">
         <div class="container">
             <div class="faq__inner">
                 <h2>Вопросы и ответы</h2>
@@ -392,12 +411,13 @@
             </div>
         </div>
     </section>
-    <section class="information">
+    <section id="information" class="information">
         <div class="container">
             <div class="information__inner">
                 <div class="information__item">
                     <div class="body-18-b information__title">Опрошенных пользовались микрокредитами</div>
-                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
+                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к
+                        заработанным
                         деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли
                         покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
                         кредитов и экономить деньги на процентах и штрафах
@@ -405,17 +425,8 @@
                 </div>
                 <div class="information__item">
                     <div class="body-18-b information__title">Опрошенных пользовались микрокредитами</div>
-                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
-                        деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли
-                        покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
-                        кредитов и экономить деньги на процентах и штрафахНе могли
-                        покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
-                        кредитов и экономить деньги на процентах и штрафах
-                    </div>
-                </div>
-                <div class="information__item">
-                    <div class="body-18-b information__title">Опрошенных пользовались микрокредитами</div>
-                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
+                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к
+                        заработанным
                         деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли
                         покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
                         кредитов и экономить деньги на процентах и штрафахНе могли
@@ -425,7 +436,19 @@
                 </div>
                 <div class="information__item">
                     <div class="body-18-b information__title">Опрошенных пользовались микрокредитами</div>
-                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным
+                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к
+                        заработанным
+                        деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли
+                        покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
+                        кредитов и экономить деньги на процентах и штрафахНе могли
+                        покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
+                        кредитов и экономить деньги на процентах и штрафах
+                    </div>
+                </div>
+                <div class="information__item">
+                    <div class="body-18-b information__title">Опрошенных пользовались микрокредитами</div>
+                    <div class="body-16 information__text">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к
+                        заработанным
                         деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли
                         покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от
                         кредитов и экономить деньги на процентах и штрафах
@@ -434,29 +457,47 @@
             </div>
         </div>
     </section>
-<!--    <section class="consult">-->
-<!--        <div class="container">-->
-<!--            <div class="consult__inner">-->
-<!--                <h2>Отправь форму</h2>-->
-<!--                <form class="form-custom" method="" action="">-->
-<!--                    <div class="form-custom__top">-->
-<!--                        <div class="input-container">-->
-<!--                            <input type="text" id="input" required>-->
-<!--                            <label for="input">Ваше имя</label>-->
-<!--                        </div>-->
-<!--                        <label>-->
-<!--                            <input type="tel" name="phone" class="" placeholder=" "/>-->
-<!--                            <span class="placeholder">Телефон</span>-->
-<!--                        </label>-->
-<!--                    </div>-->
-<!--                    <div class="form-custom__bottom">-->
-<!--                        <div class="">Оставить заявку</div>-->
-<!--                        <button class="btn" type="submit"></button>-->
-<!--                    </div>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section id="consult" class="consult">
+        <div class="container">
+            <div class="consult__inner">
+                <h2>Отправь форму</h2>
+                <form class="form-custom send-form" >
+                    <div class="form-custom__top">
+                        <div class="input-container error-check">
+                            <input type="text" name="name" id="name" class="required">
+                            <label for="name">Имя</label>
+                            <span class="error-bottom">Не менее 3 символов</span>
+                            <img class="success" src="./static/images/icons/check-circle.svg" alt="success"/>
+                            <img class="failed" src="./static/images/icons/cancel.svg" alt="failed"/>
+                        </div>
+                        <div class="input-container error-check">
+                            <input type="tel" name="phone" class="required" id="phone" >
+                            <label for="phone">Телефон</label>
+                            <span class="error-bottom">Не менее 9 цифр</span>
+                            <img class="success" src="./static/images/icons/check-circle.svg" alt="success"/>
+                            <img class="failed" src="./static/images/icons/cancel.svg" alt="failed"/>
+                        </div>
+                    </div>
+                    <div class="form-custom__bottom">
+                        <label class="form-custom__checkbox body-16">
+                            <input type="checkbox" class="required">
+                            <span class="custom-checkbox"></span>
+                            Согласен, отказываюсь
+                        </label>
+                        <span class="error-bottom">Не менее 9 цифр</span>
+                        <button class="btn btn-form" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="copy">
+        <div class="container">
+            <div class="copy__inner body-18">
+                &copy 2021 Лаборатория интернет
+            </div>
+        </div>
+    </section>
 </main>
 
 @@include('layouts/footer.html')

@@ -2,11 +2,25 @@
   background: $extralight-gray;
 
   h2 {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+    @include small-tablet {
+      margin-bottom: 32px;
+    }
+    @include small-mobile {
+      margin-bottom: 26px;
+    }
   }
 
   &__inner {
     padding: 57px 0 45px;
+    position: relative;
+
+    @include small-tablet {
+      padding: 33px 0 45px;
+    }
+    @include small-mobile {
+      padding: 27px 0 42px;
+    }
   }
 
   &__content {
@@ -19,30 +33,15 @@
     height: 100%;
     position: relative;
 
-    //&:after {
-    //  content: '';
-    //  position: absolute;
-    //  width: 100%;
-    //  height: 100%;
-    //  left: 0;
-    //  top: 0;
-    //}
-  }
-
-  &__slider {
-
-  }
-
-  &__top {
 
   }
 
   &__bottom {
     &-text {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 171%;
-      color: $black;
+      //font-weight: 400;
+      //font-size: 14px;
+      //line-height: 171%;
+      //color: $black;
       @include text-shorten(7);
     }
   }
@@ -52,10 +51,10 @@
     gap: 16px;
 
     &-title {
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 150%;
-      color: $black;
+      //font-weight: 600;
+      //font-size: 16px;
+      //line-height: 150%;
+      //color: $black;
       margin-bottom: 4px;
       max-width: 230px;
     }
@@ -67,10 +66,10 @@
     }
 
     &-place {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 133%;
-      color: $dark-gray;
+      //font-weight: 400;
+      //font-size: 12px;
+      //line-height: 133%;
+      //color: $dark-gray;
       max-width: 230px;
     }
   }

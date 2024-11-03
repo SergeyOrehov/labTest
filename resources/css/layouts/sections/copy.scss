@@ -1,0 +1,12 @@
+.copy {
+  border-top: 1px solid $light-gray;
+  &__inner {
+    padding: 28px 0;
+    text-align: center;
+
+    @include small-tablet {
+      font-size: 18px;
+      line-height: 178%;
+    }
+  }
+}

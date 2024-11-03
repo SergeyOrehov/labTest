@@ -60,6 +60,10 @@
     }
   }
 
+  &__text {
+    transition: 0.3s;
+  }
+
   &__answer {
     overflow: hidden;
     max-height: 0;
@@ -86,8 +90,9 @@
 
     @include hover {
       &:hover {
-        .faq__title {
+        .faq__text {
           color: $primary;
+          transition: 0.3s;
         }
 
         .faq__image {
