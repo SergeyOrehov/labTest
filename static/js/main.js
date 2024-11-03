@@ -1,4 +1,4 @@
-const bodyWrapper = document.querySelector('html')
+const html = document.querySelector('html')
 //mobile header
 const burgerBtnWrap = document.querySelector('.burger-btn-wrap')
 const burgerBtn = document.querySelector('.burger-btn')
@@ -7,7 +7,7 @@ const logo = document.querySelector('.logo')
 
 burgerBtnWrap?.addEventListener('click', () => {;
     mobileHeader.classList.toggle('active')
-    bodyWrapper.classList.toggle('active')
+    html.classList.toggle('active')
     document.body.classList.toggle('nav-open');
     logo.classList.toggle('active');
 })
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     links.forEach(link => {
         link.addEventListener('click', function (e) {
             mobileHeader.classList.remove('active')
-            bodyWrapper.classList.remove('active')
+            html.classList.remove('active')
             document.body.classList.remove('nav-open');
             logo.classList.remove('active');
             e.preventDefault();
