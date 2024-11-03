@@ -23,7 +23,6 @@ allInputsForm.forEach(item => {
             }
         }
         if (item.name === 'phone') {
-            console.log('sjdhfjksdfh')
             this.value = this.value.replace(/\D/g, '')
             if (this.value.length < 9) {
                 item.classList.add('error-input-val')

@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Вычисляем положение секции относительно верха документа
                 const offsetTop = targetSection.offsetTop;
                 if (link.closest('.header-mobile')) {
-                    console.log(link.closest('.header-mobile'))
                     setTimeout(() => {
                         window.scrollTo({
                             top: offsetTop,
