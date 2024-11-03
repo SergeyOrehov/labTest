@@ -9,10 +9,12 @@ const reviews = new Swiper('.reviews-slider-container', {
         320: {
             slidesPerView: 1,
             spaceBetween: 24,
+            autoHeight:true,
         },
         // when window width is >= 575px
         576: {
             slidesPerView: 1,
+            autoHeight:false,
         },
         650: {
             slidesPerView: 2,

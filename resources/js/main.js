@@ -63,3 +63,13 @@ allInputs.forEach(item => {
         }
     });
 })
+
+//close modal window after clicking outside modal block
+document.querySelectorAll('.popupThanks').forEach(function (e) {
+    e.onclick = function (element) {
+        if (element.target.classList.contains('popupThanks')) {
+            element.target.classList.remove("open");
+            document.body.style.overflow = "";
+        }
+    }
+})

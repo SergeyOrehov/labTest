@@ -1,5 +1,13 @@
 .reviews__slider {
   position: relative;
+
+  .swiper-wrapper {
+    @include medium-mobile {
+      max-height: 100% !important;
+      height: 100%;
+    }
+  }
+
   .reviews-slider-container {
     margin: 0 auto 42px;
     max-width: 1100px;
@@ -13,6 +21,11 @@
     @include small-tablet {
       padding: 0;
       margin: 0 auto 25px;
+    }
+
+    @include medium-mobile {
+      margin: 0 auto 9px;
+      height: auto;
     }
 
     @include small-mobile {
@@ -68,6 +81,10 @@
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
     max-height: 316px;
 
+    @include medium-mobile {
+      max-height: initial;
+    }
+
 
     @include hover {
       &:hover {
@@ -76,6 +93,7 @@
       }
     }
   }
+
   .swiper-navigation {
     position: absolute;
     width: 100%;
@@ -100,8 +118,8 @@
   bottom: 45px !important;
   top: auto !important;
 
-  @include small-mobile {
-    bottom: 37px !important;
+  @include medium-mobile {
+    bottom: 30px !important;
   }
 
   .swiper-pagination-bullet {

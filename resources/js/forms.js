@@ -56,6 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         e.target.querySelectorAll('.success').forEach(function (item) {
                             item.style.display = 'none'
                         })
+                        let responseForm = JSON.parse(response).id
+                        let popupThanks = document.querySelector('.popupThanks')
+                        popupThanks.querySelector('span').textContent = String(responseForm)
+                        popupThanks.classList.add('open')
+
                     })
                     .catch((error) => {
 

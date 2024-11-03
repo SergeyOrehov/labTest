@@ -38,11 +38,9 @@
 
   &__bottom {
     &-text {
-      //font-weight: 400;
-      //font-size: 14px;
-      //line-height: 171%;
-      //color: $black;
-      @include text-shorten(7);
+      @media screen and (min-width: 576px) {
+        @include text-shorten(7);
+      }
     }
   }
 
@@ -51,10 +49,6 @@
     gap: 16px;
 
     &-title {
-      //font-weight: 600;
-      //font-size: 16px;
-      //line-height: 150%;
-      //color: $black;
       margin-bottom: 4px;
       max-width: 230px;
     }
@@ -66,10 +60,6 @@
     }
 
     &-place {
-      //font-weight: 400;
-      //font-size: 12px;
-      //line-height: 133%;
-      //color: $dark-gray;
       max-width: 230px;
     }
   }
