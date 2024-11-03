@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="044a8636-1db1-486a-935f-165af6545cc2" name="Changes" comment="init deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "gh-pages",
-    "last_opened_file_path": "G:/тестовое фриланс/resources/js",
+    "last_opened_file_path": "G:/тестовое фриланс",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,11 +49,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\тестовое фриланс" />
       <recent name="G:\тестовое фриланс\resources\js" />
       <recent name="G:\тестовое фриланс\resources\images\icons" />
       <recent name="G:\тестовое фриланс\resources\css\layouts\sections" />
       <recent name="G:\тестовое фриланс\resources\css\layouts" />
-      <recent name="G:\тестовое фриланс\resources\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\тестовое фриланс" />
@@ -117,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730648689936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init deploy">
+      <option name="closed" value="true" />
+      <created>1730657162047</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730657162047</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init deploy">
+      <option name="closed" value="true" />
+      <created>1730657444109</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730657444109</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
