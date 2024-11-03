@@ -1,4 +1,4 @@
-const bodyWrapper = document.querySelector('body')
+const bodyWrapper = document.querySelector('html')
 //mobile header
 const burgerBtnWrap = document.querySelector('.burger-btn-wrap')
 const burgerBtn = document.querySelector('.burger-btn')
